@@ -1,8 +1,4 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
-
- var bio = {
+var bio = {
   	name : "Smitul Soni",
   	role : "FrontEnd Designer",
   	contacts : {
@@ -111,7 +107,7 @@ bio.display = function(){
 	var formattedBiopic = HTMLbioPic.replace("%data%",bio.biopic);
 	$("#header").append(formattedBiopic);
 
-	var formattedMsg = HTMLwelcomeMsg.replace("%data%",bio.welcomeMsg);
+	var formattedMsg = HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
 	$("#header").append(formattedMsg);
 
 	$("#header").append(HTMLskillsStart);
